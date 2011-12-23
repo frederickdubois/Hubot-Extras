@@ -1,5 +1,5 @@
 # Note in Hubot what you want him to learn in the future
-# Keep tack of the hooks you want to add to it as a team.
+# Keep track of the hooks you want to add to it as a team.
 #
 # learn to <learning> - Add something you wish your Hubot could do
 # learnings list - List the things your Hubot has to learn to satisfy his masters
@@ -12,7 +12,8 @@
 # http://duprogrammeur.com
 #
 # @disclaimer I must admit I used task.coffee as a kickstarter for this script. :)
-#
+# 
+# @todo : seems like there is a problem with the brain. Lists are emptying after restard... need to find a way to make them persistent.
 
 class Learnings
   constructor: (@robot) ->
